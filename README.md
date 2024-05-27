@@ -1,18 +1,18 @@
-# GPT for medical entity recognition in Spanish
+# Structuring Clinical Records in Spanish through Deep Learning Language Models
 
 ## Abstract
 
 **Purpose:**
-In the era of healthcare data digitization, effective methods for structuring electronic health records (EHRs) are crucial. This study conducts a comparative analysis between the traditional Named Entity Recognition (NER) method using BERT and a contemporary Large Language Model (LLM)-driven approach using GPT, focusing on structuring Spanish EHRs. The research assesses the effectiveness, accuracy, and applicability of both methodologies.
+In recent years, there has been a remarkable surge in the development of Natural Language Processing (NLP) models, particularly in the realm of Named Entity Recognition (NER). Models such as BERT have demonstrated exceptional performance, leveraging annotated corpora for accurate entity identification. However, the question arises: can newer Large Language Models (LLMs) like GPT be utilized without the need for extensive annotation, thereby enabling direct entity extraction? This study explores the issue by comparing the efficacy of fine-tuning techniques with prompting methods to elucidate the potential of GPT in identifying medical entities within Spanish Electronic Health Records (EHRs).
 
 **Methods:**
-This study utilizes a dataset of Spanish EHRs related to breast cancer. It implements a traditional NER method using BERT and a contemporary approach combining few-shot learning and external knowledge integration, driven by Large Language Models (LLMs) using GPT. The analysis involves a comprehensive pipeline, and key performance metrics (precision, recall, F1 score) are employed for evaluation. The goal is to highlight the strengths and limitations of each method in structuring Spanish EHRs.
+This study utilized a dataset of Spanish EHRs related to breast cancer and implemented both a traditional NER method using BERT, and a contemporary approach that combines few shot learning and integration of external knowledge, driven by large language models (LLMs) using GPT, to structure the data. The analysis involved a comprehensive pipeline that included these methods. Key performance metrics, such as precision, recall, and F-score, were used to evaluate the effectiveness of each method. This comparative approach aimed to highlight the strengths and limitations of each method in the context of structuring Spanish EHRs efficiently and accurately.
 
 **Results:**
-The comparative analysis demonstrates that both the traditional BERT-based NER method and the few-shot LLM-driven approach, augmented with external knowledge, provide comparable accuracy levels in metrics such as precision, recall, and F1 score for Spanish EHRs. Contrary to expectations, the LLM-driven approach, requiring minimal data annotation, performs on par with BERT in discerning complex medical terminologies and contextual nuances.
+The comparative analysis undertaken in this article demonstrates that both the traditional BERT-based NER method and the few-shot LLM-driven approach, augmented with external knowledge, provide comparable levels of precision in metrics such as precision, recall, and F score when applied to Spanish EHR. Contrary to expectations, the LLM-driven approach, which necessitates minimal data annotation, performs on par with BERT’s capability to discern complex medical terminologies and contextual nuances within the EHRs.
 
 **Conclusion:**
-This study marks a significant advancement in Spanish EHR Named Entity Recognition. The few-shot LLM-driven approach, enhanced by external knowledge, slightly outperforms the traditional BERT-based method in overall effectiveness. GPT's superiority in F-score and minimal reliance on extensive data annotation highlight its potential in medical data processing.
+The results of this study highlight a notable advance in the field of NER for Spanish EHRs, with the few shot approach driven by LLM, enhanced by external knowledge, slightly edging out the traditional BERT-based method in overall effectiveness. GPT’s superiority in F-score and its minimal reliance on extensive data annotation underscore its potential in medical data processing.
 
 ---
 
